@@ -5,7 +5,7 @@ const AppRoutes = () => {
     <div>
       <Switch>
         <Route path="/about">
-          <About />
+          <About exact />
         </Route>
       </Switch>
     </div>
